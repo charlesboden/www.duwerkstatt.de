@@ -92,3 +92,16 @@ footer {
 .button.secondary:hover {
   background: #f7f4ee;
 }
+.hero-image {
+  padding: 0;
+  background: #ffffff;
+  text-align: center;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+}
