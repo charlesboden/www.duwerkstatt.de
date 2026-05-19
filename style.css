@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  margin: 10px 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: #40534c;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #2f3f39;
+}
+
+.button.secondary {
+  background: #ffffff;
+  color: #40534c;
+  border: 1px solid #40534c;
+}
+
+.button.secondary:hover {
+  background: #f7f4ee;
+}
