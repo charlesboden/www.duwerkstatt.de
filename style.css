@@ -93,15 +93,16 @@ footer {
   background: #f7f4ee;
 }
 .hero-image {
-  padding: 0;
-  background: #ffffff;
-  text-align: center;
+  max-width: 900px;
+  margin: 50px auto 30px auto;
+  padding: 0 24px;
+  background: transparent;
 }
 
 .hero-image img {
   display: block;
   width: 100%;
-  max-width: 1400px;
   height: auto;
-  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
