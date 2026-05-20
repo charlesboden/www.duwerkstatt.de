@@ -109,76 +109,69 @@ footer {
   box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 
-.profile-row {
+
+.profile-intro {
   max-width: 900px;
   margin: 36px auto;
-  padding: 0 24px;
-  display: flex;
-  gap: 28px;
-  align-items: stretch;
-}
-
-.profile-image,
-.profile-intro {
-  flex: 1;
-}
-
-.profile-image {
-  margin: 0;
-  text-align: left;
-}
-
-.profile-image img {
-  width: 100%;
-  height: 100%;
-  max-height: 420px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 18px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-}
-
-.profile-intro {
-  margin: 0;
   padding: 32px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
+  gap: 32px;
+  align-items: center;
   background: #efe7da;
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 
-@media (max-width: 700px) {
-  .profile-row {
-    flex-direction: column;
-  }
-
-  .profile-intro {
-    text-align: center;
-  }
-
-  .profile-image img {
-    height: auto;
-    max-height: none;
-  }
+.profile-photo {
+  flex: 0 0 35%;
+  text-align: center;
 }
 
+.profile-photo img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
 
+.profile-text {
+  flex: 1;
+  text-align: left;
+}
 
-.profile-intro .eyebrow {
+.profile-text h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.profile-text p {
+  margin: 8px 0 0 0;
+}
+
+.profile-text .eyebrow {
   margin: 0 0 8px 0;
   font-size: 0.95rem;
   color: #40534c;
   letter-spacing: 0.03em;
 }
 
-.profile-intro h1 {
-  margin: 0;
-  font-size: 2.3rem;
-}
+@media (max-width: 700px) {
+  .profile-intro {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.profile-intro p {
-  margin: 8px 0 0 0;
+  .profile-text {
+    text-align: center;
+  }
+
+  .profile-photo {
+    flex: none;
+  }
+
+  .profile-photo img {
+    max-width: 260px;
+  }
 }
