@@ -161,11 +161,17 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.profile-intro.reverse {
+  flex-direction: row-reverse;
+}
+
 @media (max-width: 700px) {
-  .profile-intro {
+  .profile-intro,
+  .profile-intro.reverse {
     flex-direction: column;
     text-align: center;
   }
+}
 
   .profile-text {
     text-align: center;
@@ -179,3 +185,4 @@ footer {
     max-width: 260px;
   }
 }
+
