@@ -108,6 +108,24 @@ footer {
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
+.profile-image {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.profile-image img {
+  width: 50%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+@media (max-width: 600px) {
+  .profile-image img {
+    width: 80%;
+  }
+}
+
 .profile-intro {
   max-width: 900px;
   margin: 0 auto 36px auto;
