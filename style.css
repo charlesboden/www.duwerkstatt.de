@@ -6,11 +6,15 @@ body {
   line-height: 1.7;
 }
 
-header {
-  padding: 80px 24px;
-  text-align: center;
-  background: #d8e3dc;
+* {
+  box-sizing: border-box;
 }
+
+//header {
+//  padding: 80px 24px;
+//  text-align: center;
+//  background: #d8e3dc;
+//}
 
 h1 {
   margin: 0;
